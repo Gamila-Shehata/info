@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamila Shehata</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Full Background Slideshow -->
+    <section class="full-bg-gallery">
+        <img src="photo1.jpg" alt="Gamila Photo 1" class="active">
+        <img src="photo2.jpg" alt="Gamila Photo 2">
+        <img src="photo3.jpg" alt="Gamila Photo 3">
+    </section>
+
+    <!-- Centered Content -->
+    <div class="centered-content">
+        <header>
+            <h1 id="title">Gamila Shehata</h1>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </header>
+
+        <!-- Buttons for latest songs and photo albums -->
+        <section class="buttons">
+            <button id="latest-songs-btn" onclick="displaySongs()">Latest Songs</button>
+            <button id="latest-albums-btn" onclick="displayPhotoAlbums()">Latest Photo Albums</button>
+        </section>
+    </div>
+
+    <!-- Latest Songs and Albums Display -->
+    <section id="content-display" class="content-display">
+        <div id="song-list">
+            <iframe src="https://www.youtube.com/embed/song_id_1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/song_id_2" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div id="photo-albums" class="photo-albums">
+            <p>Latest photo albums coming soon...</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
